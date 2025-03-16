@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Container for the App */
+#container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Title Styling */
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Controls Section */
+#controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+/* Input Fields */
+input {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #fffc00; /* Bright annoying background color */
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #f07800; /* Bright orange */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff5f00;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Surprise Message */
+#surpriseMessage {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+/* Confusion Message */
+#confusionMessage {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
