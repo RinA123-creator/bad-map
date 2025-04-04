@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const shouldSendToCorrectLocation = Math.random() < 0.05;
 
         let destination = shouldSendToCorrectLocation
-            ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(userInput)}`
-            : `https://www.google.com/maps/@${randomLat},${randomLng},10z`;
+             `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(userInput)}`
+             `https://www.google.com/maps/@${randomLat},${randomLng},10z`;
 
         // Display an evil message before redirecting
         document.getElementById("message").innerHTML = shouldSendToCorrectLocation
